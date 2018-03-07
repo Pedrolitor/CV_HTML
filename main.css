@@ -1,0 +1,44 @@
+body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+	font-family: Cambria, Georgia, serif;
+	}
+ * {
+	margin: 0;
+	padding: 0;
+	}
+
+.container {
+	display: flex;
+	}
+
+header {
+	background-color:#0c2461;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+h1{
+	color: white;
+	text-align: center;
+	}
+
+.nav{
+	padding: 30px;
+	background-color: #f6b93b;
+	width: 20%;
+	min-width: 140px;
+	}
+
+.nav ul {
+	text-align: center;
+	}
+	
+h2 {
+	text-align: center;
+	
+	}
+	
+	
+
+
