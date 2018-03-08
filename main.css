@@ -30,19 +30,28 @@ h1{
 	}
 
 #nav{
-	padding: 30px;
+	text-align: center;
 	background-color: #f6b93b;
 	width: 25%;
 	min-width: 200px;
 	}
 
-#nav ul {
-	text-align: center;
+#nav a{
+	display: block;
 	border: solid 1px red;
+	height: 25%;
+	}
+
+#nav ul {
+	border: solid 1px red;
+	height: 100%;
 	}
 	
 #nav ul li {
 	border: solid 1px black;
+	height: 25%;
+	
+	text-align: center;
 	}
 	
 #main {
