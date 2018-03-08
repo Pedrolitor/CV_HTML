@@ -18,7 +18,12 @@ ul {
 .container {
 	display: flex;
 	}
-
+#nav .container {
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	}
+	
 header {
 	background-color:#0c2461;
 	padding-top: 50px;
@@ -30,29 +35,19 @@ h1{
 	}
 
 #nav{
-	text-align: center;
 	background-color: #f6b93b;
 	width: 25%;
 	min-width: 200px;
+	
 	}
 
 #nav a{
 	display: block;
 	border: solid 1px red;
 	height: 25%;
+	padding: auto 0;
 	}
 
-#nav ul {
-	border: solid 1px red;
-	height: 100%;
-	}
-	
-#nav ul li {
-	border: solid 1px black;
-	height: 25%;
-	
-	text-align: center;
-	}
 	
 #main {
 	max-width: 800px;
