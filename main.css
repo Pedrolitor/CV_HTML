@@ -32,7 +32,7 @@ h1{
 #nav{
 	padding: 30px;
 	background-color: #f6b93b;
-	width: 30%;
+	width: 25%;
 	min-width: 200px;
 	}
 
@@ -50,6 +50,7 @@ h1{
 	width: 100%;
 	margin: 0 auto;
 
+
 	}
 	
 #main h2 {
@@ -59,25 +60,29 @@ h1{
 	
 footer {
 	background-color:#0c2461;
-	position: absolute;
+	position: fixed;
 	bottom:0;
 	width:100%;
 	}
 	
 footer h2 {
-	text-align: center;
 	color: white;
-	border: solid 1px red;
-	width: 100%;
+	
+	margin: auto 0;
+	border: solid 1px yellow;
 	}
 		
 footer ul {
-	text-align: center;
-	width: 100%;
+		
+	border: solid 1px green;
+
 }
 
 footer ul li{
-	diplay: inline-block;
+	display: inline;
+	border: solid 1px red;
+	float: right;
+	margin-left: auto;
 }
 
 	
